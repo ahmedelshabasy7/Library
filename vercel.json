@@ -6,10 +6,11 @@
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/index.js" },
-    { "src": "/user/(.*)", "dest": "/api/index.js" },
-    { "src": "/user", "dest": "/api/index.js" },
-    { "src": "/book/(.*)", "dest": "/api/index.js" },
-    { "src": "/book", "dest": "/api/index.js" },
+    { "src": "/auth/(.*)", "dest": "/api/index.js" },
+    { "src": "/users/(.*)", "dest": "/api/index.js" },
+    { "src": "/admin/(.*)", "dest": "/api/index.js" },
+    { "src": "/books/(.*)", "dest": "/api/index.js" },
+    { "src": "/borrow/(.*)", "dest": "/api/index.js" },
     { "src": "/assets/(.*)", "dest": "/assets/$1" },
     { "src": "/(.*\\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot))$", "dest": "/$1" },
     { "src": "/[^.]*", "dest": "/index.html" }
