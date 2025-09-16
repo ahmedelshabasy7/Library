@@ -13,6 +13,7 @@
     "dev:server": "node app.js",
   "dev:client": "vite",
   "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
+  "vercel-build": "vite build",
   "build:client": "vite build",
   "preview:client": "vite preview",
     "test": "echo 'No tests defined' && exit 0"
