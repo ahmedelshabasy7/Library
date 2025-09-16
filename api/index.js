@@ -1,5 +1,5 @@
 import serverlessExpress from '@vendia/serverless-express';
 
-const app = require('../app');
+import app from '../app.js';
 
 export default serverlessExpress({ app });
